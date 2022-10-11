@@ -33,12 +33,12 @@ h2 {
   color: darkcyan;
   font-size: 30px;
 }
-#h3 {
+h3 {
   background-color: darkcyan;
   color: #fff;
   text-align: right;
   font-size: 15px;
-  font-family: "카페24 써라운드", 굴림, sans-serif;;
+  font-family: "카페24 써라운드", 굴림, sans-serif;
 }
 #txt3 {
   background-color: orange;
