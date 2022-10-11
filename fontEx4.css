@@ -1,0 +1,48 @@
+@charset "utf-8";
+h1 {
+  font-family: "카페24 써라운드", 굴림, sans-serif;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+
+section {
+  text-align: center;
+  background-color: ghostwhite;
+}
+#txt1 {
+  text-decoration: underline;
+  font-size: 14px;
+  color: grey;
+}
+#txt2 {
+  color: red;
+  font-size: 14px;
+}
+section > p > a {
+  font-size: 18px;
+  background-color: darkred;
+  color: #fff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: darkcyan;
+  font-size: 30px;
+}
+#h3 {
+  background-color: darkcyan;
+  color: #fff;
+  text-align: right;
+  font-size: 15px;
+  font-family: "카페24 써라운드", 굴림, sans-serif;;
+}
+#txt3 {
+  background-color: orange;
+}
+#txt4 {
+  background-color: orange;
+}
