@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* header */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container header {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #000;
+  height: 40px; width: 100%;
+  background-color: transparent;
+  position: absolute;
+  line-height: 5px;
+}
+.container header h1 {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+.container header #gnb {
+  display: flex;
+  margin-left: auto;
+  font-weight: bold;
+}
+.container header #gnb li {
+  width: 100%;
+}
+.container header #gnb a {
+  display: block;
+  height: 30px;
+  padding: 1vw 2vw;
+}
+.container header #gnb a:hover {
+  color: blue;
+}
+.container header #gnb li ul {
+  display: none;
+}
+.container header #gnb li:hover ul {
+  display: block;
+}
+.container header #gnb li ul a {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* register */
+.container header #register {
+  display: flex;
+}
+.container header #register li {
+  width: 100%;
+}
+.container header #register a {
+  display: block;
+  padding: 1vw .5vw;
+}
+.container header #register a:hover {
+  color: blue;
+}
+
+/* main */
+.container main .box1 {
+  background: url(../../git/ex/images/weblayout/bg1920.jpg) no-repeat 100% / cover;
+  height: 1008px;
+  text-indent: -9999px;
+}
+
+/* box2 */
+.container main .box2 {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  height: 700px;
+  margin: 80px;
+}
+.container main .box2 .txt {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 40px 20px;
+}
+.container main .box2 .txt2, .container main .box2 .txt4 { border-right: none; }
+.container main .box2 .txt3, .container main .box2 .txt4 { border-bottom: none ;}
+.container main .box2 .txt h3 {
+  font-weight: bold; font-size: 2em;
+}
+.container main .box2 .txt p {
+  padding-top: 40px;
+}
+
+/* box3 */
+.container main .box3 {
+  display: grid;
+  background: no-repeat 50% / cover;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 800px;
+  text-indent: -9999px;
+}
+.container main .box3 .bg1 { 
+  background-image: url(../../git/ex/images/weblayout/bg1.jpeg); 
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.container main .box3 .bg2 { background-image: url(../../git/ex/images/weblayout/img1-7.jpg); }
+.container main .box3 .bg3 { background-image: url(../../git/ex/images/weblayout/12c9491dab593fb527fcddd42282bdbeb0fe6451_re_1663060663742.jpeg); }
+.container main .box3 .bg4 { 
+  background-image: url(../../git/ex/images/weblayout/bg4.jpeg); 
+  grid-column: span 2; 
+}
+.container main .box3 .bg5 { 
+  background-image: url(../../git/ex/images/weblayout/pic4.jpeg); 
+  grid-column: span 2; 
+}
+.container main .box3 .bg6 { background-image: url(../../git/ex/images/weblayout/gdgf.jpeg); }
+.container main .box3 .bg7 { background-image: url(../../git/ex/images/weblayout/pic7.jpeg); }
+
+/* box4 */
+.container main .box4 {
+  text-align: center;
+}
+.container main .box4 h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 80px 0 50px;
+}
+.container main .box4 .bar {
+  width: 50px; height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+  display: block;
+}
+.container main .box4 p {
+  margin: 50px 0;
+}
+/* box5 */
+.container main .box5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.container main .box5 img {
+  height: 800px; width: 700px;
+}
+.container main .box5 img:hover {
+  filter: blur(10px);
+}
+.container main .box5 .bus {
+  padding: 20px;
+}
+.container main .box5 .bus .coment {
+ text-align: center;
+ padding: 20px;
+}
+.container main .box5 .bus .coment h4 {
+  font-weight: bold; font-size: 1.3em;
+}
+
+/* box6 */
+.container main .box6 {
+  background-color: #ddd;
+  display: grid;
+  padding: 30px;
+}
+.container main .box6 .youtube {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding-bottom: 30px;
+}
+.container main .box6 h2 {
+  font-weight: bold; font-size: 2em;
+}
+.container main .box6 video {
+  width: 90%; height: 25vw;
+  object-fit: fill;
+  margin: 0 auto;
+}
+
+/* box7 */
+.container main .box7 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container main .box7 h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 80px 0 50px;
+}
+.container main .box7 .bar {
+  width: 50px; height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+  display: block;
+}
+
+/* box8 */
+.container main .box8 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin: 100px;
+  transition: 0.5s;
+}
+.container main .box8 .service img {
+  height: 400px;
+}
+.container main .box8 .service {
+  text-align: left;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #ddd;
+}
+.container main .box8 .service .memo h4 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.container main .box8 .service:hover {
+  transform: scale(1.1);
+}
+
+/* box9 */
+.container main .box9 h2 {
+  font-weight: bold; font-size: 2em;
+  text-align: center;
+}
+.container main .box9 p {
+  background-color: rgba(0, 0, 0, 0.5); color: #fff;
+  width: 290px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+/* box10 */
+.container main .box10 {
+  margin: 200px 30px;
+}
+.container main .box10 table {
+  width: 100%;
+  border-bottom: 3px solid #000;
+}
+.container main .box10 table tbody tr {
+  border-bottom: 1px solid #000;
+}
+.container main .box10 table tbody tr th {
+  text-align: left;
+  padding: 20px;
+}
+
+/* box11 */
+.container main .box11 {
+  text-align: center;
+  background: url(../../git/ex/images/weblayout/pic2.jpeg) no-repeat 50% / cover;
+  background-attachment: fixed;
+  height: 50vh;
+  color: #fff;
+}
+.container main .box11 .bg_color {
+  background-color: rgba(154, 210, 234,.7);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container main .box11 h2 {
+  font-weight: bold; font-size: 2em;
+  padding-bottom: 20px;
+}
+.container main .box11 p {
+  padding-bottom: 30px;
+}
+.container main .box11 a {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.container main .box11 a:hover {
+  background-color: blue;
+}
+
+/* footer */
+.container footer {
+  text-align: center;
+  padding: 20px;
+  line-height: 2;
+}
+.container .top_btn #btn {
+  position: fixed;
+  right: 16px; bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 24px; 
+  font-weight: bold;
+  width: 60px; height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.container .top_btn #btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+  bottom: 34px;
+}
+.container .top_btn #btn .top {
+  position: relative;
+}
+.container .top_btn #btn .top::after {
+  content: '';
+  position: absolute;
+  left: -15px; top: 20px;
+  width: 30px; height: 30px;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  transform: rotate(315deg);
+}
