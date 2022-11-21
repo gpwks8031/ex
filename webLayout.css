@@ -70,7 +70,7 @@ a {
 
 /* main */
 .container main .box1 {
-  background: url(../../git/ex/images/weblayout/bg1920.jpg) no-repeat 100% / cover;
+  background: url(./images/weblayout/bg1920.jpg) no-repeat 100% / cover;
   height: 1008px;
   text-indent: -9999px;
 }
@@ -106,22 +106,22 @@ a {
   text-indent: -9999px;
 }
 .container main .box3 .bg1 { 
-  background-image: url(../../git/ex/images/weblayout/bg1.jpeg); 
+  background-image: url(./images/weblayout/bg1.jpeg); 
   grid-column: 1/3;
   grid-row: 1/3;
 }
-.container main .box3 .bg2 { background-image: url(../../git/ex/images/weblayout/img1-7.jpg); }
-.container main .box3 .bg3 { background-image: url(../../git/ex/images/weblayout/12c9491dab593fb527fcddd42282bdbeb0fe6451_re_1663060663742.jpeg); }
+.container main .box3 .bg2 { background-image: url(./images/weblayout/img1-7.jpg); }
+.container main .box3 .bg3 { background-image: url(./images/weblayout/12c9491dab593fb527fcddd42282bdbeb0fe6451_re_1663060663742.jpeg); }
 .container main .box3 .bg4 { 
-  background-image: url(../../git/ex/images/weblayout/bg4.jpeg); 
+  background-image: url(./images/weblayout/bg4.jpeg); 
   grid-column: span 2; 
 }
 .container main .box3 .bg5 { 
-  background-image: url(../../git/ex/images/weblayout/pic4.jpeg); 
+  background-image: url(./images/weblayout/pic4.jpeg); 
   grid-column: span 2; 
 }
-.container main .box3 .bg6 { background-image: url(../../git/ex/images/weblayout/gdgf.jpeg); }
-.container main .box3 .bg7 { background-image: url(../../git/ex/images/weblayout/pic7.jpeg); }
+.container main .box3 .bg6 { background-image: url(./images/weblayout/gdgf.jpeg); }
+.container main .box3 .bg7 { background-image: url(./images/weblayout/pic7.jpeg); }
 
 /* box4 */
 .container main .box4 {
@@ -258,7 +258,7 @@ a {
 /* box11 */
 .container main .box11 {
   text-align: center;
-  background: url(../../git/ex/images/weblayout/pic2.jpeg) no-repeat 50% / cover;
+  background: url(./images/weblayout/pic2.jpeg) no-repeat 50% / cover;
   background-attachment: fixed;
   height: 50vh;
   color: #fff;
