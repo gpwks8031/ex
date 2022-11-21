@@ -18,6 +18,8 @@ a {
   background-color: transparent;
   position: absolute;
   line-height: 5px;
+  position: fixed;
+  z-index: 9999;
 }
 .container header h1 {
   font-weight: bold;
